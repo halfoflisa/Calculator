@@ -164,7 +164,6 @@ function operate(x, y, op) {
             result = x / y;
         }
     }
-    
     if (result >= 0) {                                                  // 計算結果が0以上の場合
         result = Math.round(result * 1000) / 1000;                      // 丸めた計算結果を代入
         return result;
